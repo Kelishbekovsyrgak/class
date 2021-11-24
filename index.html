@@ -4,9 +4,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BEM</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#" style="font-weight: bold;">Web.Dev</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link active mx-2" aria-current="page" href="#" style="font-size: 18px;">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#" style="font-size: 18px;">About</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#" style="font-size: 18px;">Testimonials</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#" style="font-size: 18px;">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Sign in</a>
+                          </li>
+                    </ul>
+                </div>
+              <button class="btn btn-success collapse navbar-collapse" type="submit" style="padding: 8px 45px; background: #49AD09; border: none;">Sign up</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+
+    <header class="header">
+        <div class="container">
+            <div class="header__info">
+                <h1>We Develop <span style="color: 
+                    #49AD09;">Shopify</span> sites</h1>
+                <p>Slingback fabric heels. Thin wraparound ankle strap. Squared heel and toe. Pointed toes. Padded insole with geometrical design. </p>
+                <div class="header__button-block">
+                    <button>Contact Us</button>
+                    <a href="#" class="mx-3">Watch Video <img src="./img/play.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a href="#"><img src="./img/1-logo.png" alt=""></a>
+          </div>
+          <div class="col">
+            <a href="#"><img src="./img/2-logo.png" alt=""></a>
+          </div>
+          <div class="col">
+            <a href="#"><img src="./img/3-logo.png" alt=""></a>
+          </div>
+          <div class="col">
+            <a href="#"><img src="./img/4-logo.png" alt=""></a>
+          </div>
+          <div class="col">
+            <a href="#"><img src="./img/5-logo.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <div class="footer">
+      <h5>What we Do?</h5>
+      <h2>Our Specialization</h2>
+      <div class="container">
+        <div class="footer__gap">
+          <div class="first__footer">
+            <div class="top__info d-flex mx-lg-4 my-lg-4">
+              <img src="./img/footer-1.svg" alt="">
+              <h3>Webflow Development</h3>
+            </div>
+            <p class="mx-4">Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly.</p>
+            <a href="#" class="mx-4">Read More</a>
+          </div>
+          <div class="first__footer second__footer">
+            <div class="top__info d-flex mx-lg-4 my-lg-4">
+              <img src="./img/footer-2.svg" alt="">
+              <h3>Shopify Development</h3>
+            </div>
+            <p class="mx-4">Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly.</p>
+            <a href="#" class="mx-4" style="color: #313131;">Read More</a>
+          </div>
+          <div class="first__footer third__footer">
+            <div class="top__info d-flex mx-lg-4 my-lg-4">
+              <img src="./img/footer-3.svg" alt="">
+              <h3>Figma Web Designing</h3>
+            </div>
+            <p class="mx-4">Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly.</p>
+            <a href="#" class="mx-4" style="color: #313131;">Read More</a>
+          </div>
+          <div class="first__footer fourth__footer">
+            <div class="top__info d-flex mx-lg-4 my-lg-4">
+              <img src="./img/footer-4.svg" alt="">
+              <h3 style="color: #fff;">Php Development</h3>
+            </div>
+            <p class="mx-4">Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush. Merits behind on afraid or warmly.</p>
+            <a href="#" class="mx-4" style="color: #fff;">Read More</a>
+          </div>
+        </div>
+        <button class="footer__button d-flex">Sign up</button>
+      </div>
+    </div>
     
+
+
+
+    <script src="./js/bootstrap.bundle.js"></script>
 </body>
 </html>
